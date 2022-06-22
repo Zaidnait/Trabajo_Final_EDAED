@@ -1,11 +1,11 @@
 {
     "id": "3B50B04D",
-    "path": null,
-    "project_path": null,
+    "path": "G:/Mi unidad/Documentos  UNAL/Segundo Semestre/Estadística descriptiva/Trabajo final/R/main.R",
+    "project_path": "R/main.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "852952723",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1655723268279.0,
     "source_on_save": false,
     "relative_order": 1,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "31,0",
-        "scrollLine": "19"
+        "cursorPosition": "0,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 7307491043415436322,
-    "encoding": "",
+    "lastKnownWriteTime": 1655726986,
+    "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1655724335455,
+    "last_content_update": 1655726987193,
     "read_only": false,
     "read_only_alternatives": []
 }
