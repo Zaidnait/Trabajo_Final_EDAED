@@ -1,0 +1,26 @@
+---
+title: "Adecuacion"
+author: "Sebastián Díaz Osorio"
+date: '2022-07-01'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+```
+
+```{r}
+load("../Datos/Datos_limpios/Registro_mesas_G01.RData")
+```
+
+```{r}
+mesas <- select(mesas, -13)
+```
+
+```{r}
+save(mesas, file = "../Datos/Datos_limpios/Registro_mesas_G01.RData")
+```

@@ -1,0 +1,24 @@
+---
+title: "Lectura y adecuaciòn base de datos"
+author: "Sebastián Díaz Osorio"
+date: '2022-07-01'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(readxl)
+```
+
+```{r}
+
+mesas <- read_excel("../Datos/Datos_original/Registro_mesas_G01.xlsx")
+```
+
+```{r}
+save(mesas, file = "../Datos/Datos_limpios/Registro_mesas_G01.RData")
+```
+
